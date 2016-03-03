@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#define kScreenBounds [UIScreen mainScreen].bounds               //主屏幕bounds
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    self.window = [[UIWindow alloc] initWithFrame:kScreenBounds];
+    ViewController * vc = [[ViewController alloc] init];
+    UINavigationController * na = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = na;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,0 +1,16 @@
+PODS:
+  - MJExtension (3.0.10)
+  - MLLabel (1.9.0)
+  - SDAutoLayout (1.31)
+
+DEPENDENCIES:
+  - MJExtension
+  - MLLabel (~> 1.0)
+  - SDAutoLayout (~> 1.31)
+
+SPEC CHECKSUMS:
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MLLabel: 9d4575d4bcf686462eeaf29c1990988f748f85fd
+  SDAutoLayout: 79b8977f863ba4722bb8f8f6f92981d0b8ae932a
+
+COCOAPODS: 0.39.0

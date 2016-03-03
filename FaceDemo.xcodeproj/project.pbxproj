@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C8FB57B1BCD34C45A24FD9E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF2C66A36ADCAFDD1DAEECF /* libPods.a */; };
 		6A235F5F1C87E17700687599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F5E1C87E17700687599 /* main.m */; };
 		6A235F621C87E17700687599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F611C87E17700687599 /* AppDelegate.m */; };
 		6A235F651C87E17700687599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F641C87E17700687599 /* ViewController.m */; };
@@ -14,6 +15,26 @@
 		6A235F6A1C87E17700687599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F691C87E17700687599 /* Assets.xcassets */; };
 		6A235F6D1C87E17700687599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F6B1C87E17700687599 /* LaunchScreen.storyboard */; };
 		6A235F781C87E17700687599 /* FaceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F771C87E17700687599 /* FaceDemoTests.m */; };
+		6A235F961C87E40900687599 /* ClippedExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F841C87E40900687599 /* ClippedExpression.bundle */; };
+		6A235F981C87E40900687599 /* CommunityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F881C87E40900687599 /* CommunityCell.m */; };
+		6A235F991C87E40900687599 /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F8A1C87E40900687599 /* Expression.plist */; };
+		6A235F9A1C87E40900687599 /* Expression_Antitone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F8B1C87E40900687599 /* Expression_Antitone.plist */; };
+		6A235F9B1C87E40900687599 /* FaceBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F8D1C87E40900687599 /* FaceBoard.m */; };
+		6A235F9C1C87E40900687599 /* FaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F8F1C87E40900687599 /* FaceButton.m */; };
+		6A235F9D1C87E40900687599 /* FaceLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F911C87E40900687599 /* FaceLabel.m */; };
+		6A235F9E1C87E40900687599 /* FaceMap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F921C87E40900687599 /* FaceMap.plist */; };
+		6A235F9F1C87E40900687599 /* FaceMap_Antitone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A235F931C87E40900687599 /* FaceMap_Antitone.plist */; };
+		6A235FA01C87E40900687599 /* GrayPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235F951C87E40900687599 /* GrayPageControl.m */; };
+		6A235FA81C87E48100687599 /* backFace.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA11C87E48100687599 /* backFace.png */; };
+		6A235FA91C87E48100687599 /* backFace@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA21C87E48100687599 /* backFace@2x.png */; };
+		6A235FAA1C87E48100687599 /* backFaceSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA31C87E48100687599 /* backFaceSelect.png */; };
+		6A235FAB1C87E48100687599 /* backFaceSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA41C87E48100687599 /* backFaceSelect@2x.png */; };
+		6A235FAC1C87E48100687599 /* icon_keyboard_face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA51C87E48100687599 /* icon_keyboard_face@2x.png */; };
+		6A235FAD1C87E48100687599 /* icon_send_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA61C87E48100687599 /* icon_send_keyboard@2x.png */; };
+		6A235FAE1C87E48100687599 /* icon_send_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A235FA71C87E48100687599 /* icon_send_keyboard@3x.png */; };
+		6A235FB11C87E4BE00687599 /* FKPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235FB01C87E4BE00687599 /* FKPTextView.m */; };
+		6A235FB41C87E59700687599 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235FB31C87E59700687599 /* UIViewExt.m */; };
+		6A235FB71C87E7A400687599 /* CommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A235FB61C87E7A400687599 /* CommentModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B6C108DC1599965669A5521 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6A235F5A1C87E17700687599 /* FaceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A235F5E1C87E17700687599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A235F601C87E17700687599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +62,36 @@
 		6A235F731C87E17700687599 /* FaceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A235F771C87E17700687599 /* FaceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceDemoTests.m; sourceTree = "<group>"; };
 		6A235F791C87E17700687599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A235F841C87E40900687599 /* ClippedExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClippedExpression.bundle; sourceTree = "<group>"; };
+		6A235F871C87E40900687599 /* CommunityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunityCell.h; sourceTree = "<group>"; };
+		6A235F881C87E40900687599 /* CommunityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunityCell.m; sourceTree = "<group>"; };
+		6A235F8A1C87E40900687599 /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		6A235F8B1C87E40900687599 /* Expression_Antitone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression_Antitone.plist; sourceTree = "<group>"; };
+		6A235F8C1C87E40900687599 /* FaceBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBoard.h; sourceTree = "<group>"; };
+		6A235F8D1C87E40900687599 /* FaceBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBoard.m; sourceTree = "<group>"; };
+		6A235F8E1C87E40900687599 /* FaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceButton.h; sourceTree = "<group>"; };
+		6A235F8F1C87E40900687599 /* FaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceButton.m; sourceTree = "<group>"; };
+		6A235F901C87E40900687599 /* FaceLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceLabel.h; sourceTree = "<group>"; };
+		6A235F911C87E40900687599 /* FaceLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceLabel.m; sourceTree = "<group>"; };
+		6A235F921C87E40900687599 /* FaceMap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FaceMap.plist; sourceTree = "<group>"; };
+		6A235F931C87E40900687599 /* FaceMap_Antitone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FaceMap_Antitone.plist; sourceTree = "<group>"; };
+		6A235F941C87E40900687599 /* GrayPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayPageControl.h; sourceTree = "<group>"; };
+		6A235F951C87E40900687599 /* GrayPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayPageControl.m; sourceTree = "<group>"; };
+		6A235FA11C87E48100687599 /* backFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backFace.png; sourceTree = "<group>"; };
+		6A235FA21C87E48100687599 /* backFace@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backFace@2x.png"; sourceTree = "<group>"; };
+		6A235FA31C87E48100687599 /* backFaceSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backFaceSelect.png; sourceTree = "<group>"; };
+		6A235FA41C87E48100687599 /* backFaceSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backFaceSelect@2x.png"; sourceTree = "<group>"; };
+		6A235FA51C87E48100687599 /* icon_keyboard_face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_keyboard_face@2x.png"; sourceTree = "<group>"; };
+		6A235FA61C87E48100687599 /* icon_send_keyboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_send_keyboard@2x.png"; sourceTree = "<group>"; };
+		6A235FA71C87E48100687599 /* icon_send_keyboard@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_send_keyboard@3x.png"; sourceTree = "<group>"; };
+		6A235FAF1C87E4BE00687599 /* FKPTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FKPTextView.h; sourceTree = "<group>"; };
+		6A235FB01C87E4BE00687599 /* FKPTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FKPTextView.m; sourceTree = "<group>"; };
+		6A235FB21C87E59700687599 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		6A235FB31C87E59700687599 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		6A235FB51C87E7A400687599 /* CommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentModel.h; sourceTree = "<group>"; };
+		6A235FB61C87E7A400687599 /* CommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentModel.m; sourceTree = "<group>"; };
+		8F35E84D8B9505BC116A0681 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EBF2C66A36ADCAFDD1DAEECF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8FB57B1BCD34C45A24FD9E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59E1327425A6B49A02E181DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B6C108DC1599965669A5521 /* Pods.debug.xcconfig */,
+				8F35E84D8B9505BC116A0681 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A235F511C87E17700687599 = {
 			isa = PBXGroup;
 			children = (
 				6A235F5C1C87E17700687599 /* FaceDemo */,
 				6A235F761C87E17700687599 /* FaceDemoTests */,
 				6A235F5B1C87E17700687599 /* Products */,
+				59E1327425A6B49A02E181DA /* Pods */,
+				F0AEA26338A08E818FB72572 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +149,16 @@
 				6A235F611C87E17700687599 /* AppDelegate.m */,
 				6A235F631C87E17700687599 /* ViewController.h */,
 				6A235F641C87E17700687599 /* ViewController.m */,
+				6A235F841C87E40900687599 /* ClippedExpression.bundle */,
+				6A235F871C87E40900687599 /* CommunityCell.h */,
+				6A235F881C87E40900687599 /* CommunityCell.m */,
+				6A235FB51C87E7A400687599 /* CommentModel.h */,
+				6A235FB61C87E7A400687599 /* CommentModel.m */,
+				6A235FAF1C87E4BE00687599 /* FKPTextView.h */,
+				6A235FB01C87E4BE00687599 /* FKPTextView.m */,
+				6A235FB21C87E59700687599 /* UIViewExt.h */,
+				6A235FB31C87E59700687599 /* UIViewExt.m */,
+				6A235F891C87E40900687599 /* Face */,
 				6A235F661C87E17700687599 /* Main.storyboard */,
 				6A235F691C87E17700687599 /* Assets.xcassets */,
 				6A235F6B1C87E17700687599 /* LaunchScreen.storyboard */,
@@ -97,6 +171,13 @@
 		6A235F5D1C87E17700687599 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A235FA11C87E48100687599 /* backFace.png */,
+				6A235FA21C87E48100687599 /* backFace@2x.png */,
+				6A235FA31C87E48100687599 /* backFaceSelect.png */,
+				6A235FA41C87E48100687599 /* backFaceSelect@2x.png */,
+				6A235FA51C87E48100687599 /* icon_keyboard_face@2x.png */,
+				6A235FA61C87E48100687599 /* icon_send_keyboard@2x.png */,
+				6A235FA71C87E48100687599 /* icon_send_keyboard@3x.png */,
 				6A235F5E1C87E17700687599 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -111,6 +192,33 @@
 			path = FaceDemoTests;
 			sourceTree = "<group>";
 		};
+		6A235F891C87E40900687599 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				6A235F8A1C87E40900687599 /* Expression.plist */,
+				6A235F8B1C87E40900687599 /* Expression_Antitone.plist */,
+				6A235F8C1C87E40900687599 /* FaceBoard.h */,
+				6A235F8D1C87E40900687599 /* FaceBoard.m */,
+				6A235F8E1C87E40900687599 /* FaceButton.h */,
+				6A235F8F1C87E40900687599 /* FaceButton.m */,
+				6A235F901C87E40900687599 /* FaceLabel.h */,
+				6A235F911C87E40900687599 /* FaceLabel.m */,
+				6A235F921C87E40900687599 /* FaceMap.plist */,
+				6A235F931C87E40900687599 /* FaceMap_Antitone.plist */,
+				6A235F941C87E40900687599 /* GrayPageControl.h */,
+				6A235F951C87E40900687599 /* GrayPageControl.m */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		F0AEA26338A08E818FB72572 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2C66A36ADCAFDD1DAEECF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A235F7C1C87E17700687599 /* Build configuration list for PBXNativeTarget "FaceDemo" */;
 			buildPhases = (
+				7A26B6289CCBBA065B1FC1CB /* Check Pods Manifest.lock */,
 				6A235F561C87E17700687599 /* Sources */,
 				6A235F571C87E17700687599 /* Frameworks */,
 				6A235F581C87E17700687599 /* Resources */,
+				9E2F61478E7FEEAE20827E81 /* Embed Pods Frameworks */,
+				0C8C2C9F47176B752B32DCD3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +271,7 @@
 				TargetAttributes = {
 					6A235F591C87E17700687599 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = L23AN4MA3N;
 					};
 					6A235F721C87E17700687599 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -191,9 +303,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A235F9A1C87E40900687599 /* Expression_Antitone.plist in Resources */,
+				6A235F991C87E40900687599 /* Expression.plist in Resources */,
+				6A235FAB1C87E48100687599 /* backFaceSelect@2x.png in Resources */,
 				6A235F6D1C87E17700687599 /* LaunchScreen.storyboard in Resources */,
+				6A235FAC1C87E48100687599 /* icon_keyboard_face@2x.png in Resources */,
+				6A235F961C87E40900687599 /* ClippedExpression.bundle in Resources */,
 				6A235F6A1C87E17700687599 /* Assets.xcassets in Resources */,
+				6A235FA81C87E48100687599 /* backFace.png in Resources */,
+				6A235FAE1C87E48100687599 /* icon_send_keyboard@3x.png in Resources */,
+				6A235FA91C87E48100687599 /* backFace@2x.png in Resources */,
 				6A235F681C87E17700687599 /* Main.storyboard in Resources */,
+				6A235FAA1C87E48100687599 /* backFaceSelect.png in Resources */,
+				6A235F9F1C87E40900687599 /* FaceMap_Antitone.plist in Resources */,
+				6A235FAD1C87E48100687599 /* icon_send_keyboard@2x.png in Resources */,
+				6A235F9E1C87E40900687599 /* FaceMap.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +330,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C8C2C9F47176B752B32DCD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A26B6289CCBBA065B1FC1CB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2F61478E7FEEAE20827E81 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A235F561C87E17700687599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A235FA01C87E40900687599 /* GrayPageControl.m in Sources */,
+				6A235FB41C87E59700687599 /* UIViewExt.m in Sources */,
+				6A235F9B1C87E40900687599 /* FaceBoard.m in Sources */,
 				6A235F651C87E17700687599 /* ViewController.m in Sources */,
+				6A235F981C87E40900687599 /* CommunityCell.m in Sources */,
+				6A235F9C1C87E40900687599 /* FaceButton.m in Sources */,
+				6A235F9D1C87E40900687599 /* FaceLabel.m in Sources */,
 				6A235F621C87E17700687599 /* AppDelegate.m in Sources */,
+				6A235FB71C87E7A400687599 /* CommentModel.m in Sources */,
 				6A235F5F1C87E17700687599 /* main.m in Sources */,
+				6A235FB11C87E4BE00687599 /* FKPTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +517,10 @@
 		};
 		6A235F7D1C87E17700687599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6C108DC1599965669A5521 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyProgramName.FaceDemo;
@@ -348,8 +530,10 @@
 		};
 		6A235F7E1C87E17700687599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F35E84D8B9505BC116A0681 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FaceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyProgramName.FaceDemo;
@@ -400,6 +584,7 @@
 				6A235F7E1C87E17700687599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A235F7F1C87E17700687599 /* Build configuration list for PBXNativeTarget "FaceDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +593,7 @@
 				6A235F811C87E17700687599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
